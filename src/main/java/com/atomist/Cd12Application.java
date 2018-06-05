@@ -23,7 +23,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Cd12Application {
 
 	public static void main(String[] args) {
-		int test = 0 / 1;
+		int test = 1 / 0;
 		SpringApplication.run(Cd12Application.class, args);
 	}
 }
